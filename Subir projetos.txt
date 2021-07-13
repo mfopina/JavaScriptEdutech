@@ -1,0 +1,56 @@
+SUBIR PROJETOS
+
+git init
+
+git remote add origin https://github.com/mfopina/link do git hub.git
+
+git branch -M main
+
+git add *
+
+git commit -m "Commit inicial"
+
+________________________________________________________
+se for a primeira vez tem que cadastrar usuario
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+________________________________________________________
+
+git commit -m "Commit inicial"
+
+git branch -M main
+
+git push -u origin main
+
+
+________________________________________________________________
+BAIXAR PROJETO
+
+git clone https://github.com/mfopina/JavaScript.git
+
+________________________________________________________________
+VERIFICAR PROJETO LOCAL
+
+2. Altere o projeto local para trabalhar com o branch desejado:
+git checkout [nome do branch]
+
+3. Se quiser verificar os branches que estão no repositório local:
+git branch
+
+4. Se quiser visualizar os branches que estão no projeto local e no GitHub:
+git branch -a
+
+
+________________________________________________________________
+ATUALIZAR PROJETO LOCAL
+
+git add *
+
+git commit -m "update"
+
+git pull origin main
+
+ou
+
+git push -u origin main
