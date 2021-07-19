@@ -1,6 +1,9 @@
 <html>
 
 <HEAD><TITLE>BEM VINDO!!!</TITLE>
+
+<meta charset="UTF-8">
+
 <style type="text/css"> 
 body { 
   background:#FFFFFF; 
@@ -70,19 +73,66 @@ _height:2em;
 #menu .e, #menu .d { 
   display:inline; 
 } 
+
+div.box {
+	height: 100px; 
+	width: 320px;
+	display: inline-block;
+}
+
+#style1 { 
+  font-family: Consolas; 
+  font-size: 50px; 
+  font-weight: bold; 
+  color: #000000;
+  text-align: center; 
+} 
+
 </style> 
  
 </HEAD>
 
 <BODY>
-<div id="menu"> 
-    <ul>
-    <li><a href="spaceinvadersaula/spaceinvaders/index.html"/>Space Invaders</a></li> 
-    <li><a href="Robo/index.html"/>Robo</a></li> 
-    <li><a href="pong/index.html"/>Ping Pong</a></li> 
-     
-   </ul> 
- </div> 
+
+<TABLE BORDER="2" BGCOLOR="blue" >
+
+<TD WIDTH="150" HEIGHT="120">
+
+
+
+<MARQUEE onmouseover="this.stop()" onmouseout="this.start()" WIDTH="150" HEIGHT="120" direction="up" >
+<A HREF="https://mfopina.github.io/scratch/"><IMG WIDTH="150" HEIGHT="120" SRC="imagens\Scratch.jpg" alt="Scratch"></A><BR>
+<A HREF="https://mfopina.github.io/JavaScriptEdutech/"><IMG WIDTH="150" HEIGHT="120" SRC="imagens\JavaScript.jpg" alt="Java Script"></A><BR>
+<A HREF="https://mfopina.github.io/construct/"><IMG WIDTH="150" HEIGHT="120" SRC="imagens\construct.jpg" alt="Construct"></A><BR>
+
+</MARQUEE>
+
+
+</TD>
+</TABLE>
+
+<p> 
+
+<div id="style1">
+
+	Jogos Java Script
+
+	</div><BR>
+	
+	<div class="box">
+    <a href="spaceinvadersaula/spaceinvaders/index.html"/><IMG SRC="imagens\spaceinvaders.jpg" BORDER="5" WIDTH="300" HEIGHT="300" HSPACE="30" VSPACE="70" ALT="Space Invaders"></a>
+    <span> Space Invaders </span>
+</div>
+<div class="box">
+    <a href="Robo/index.html"/><IMG SRC="imagens\robo.jpg" BORDER="5" WIDTH="300" HEIGHT="300" HSPACE="30" VSPACE="70" ALT="Robô"></a>
+    <span> Robô </span>
+</div>
+<div class="box">
+    <a href="pong/index.html"/><IMG SRC="imagens\pingpong.jpg" BORDER="5" WIDTH="300" HEIGHT="300" HSPACE="30" VSPACE="70" ALT="Ping Pong"></a>
+    <span> Ping Pong </span>
+</div>
+	
+	
 
 </BODY>
 
